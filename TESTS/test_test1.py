@@ -20,3 +20,12 @@ class TestOne(BaseClass):
     @pytest.fixture(params=HomePageData.getTestdata('T1'))
     def getData(self,request):
         return request.param
+
+    def test_e1e():
+        print("hello ")
+
+    def test_p1():
+        print("hello2")
+
+    def test_p2():
+        print('hello3')
