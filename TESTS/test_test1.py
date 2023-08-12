@@ -29,3 +29,9 @@ class TestOne(BaseClass):
 
     def test_p2():
         print('hello3')
+
+    def test_p3():
+        print('hell4')
+
+    def test_p4():
+        print("hello 5")
